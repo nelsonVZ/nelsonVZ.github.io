@@ -8,24 +8,91 @@
     <title>About</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="estilos/estilopersonal.css">
 </head>
 
 <body>
     <header>
-        <h1>SOBRE MI</h1>
+        <nav class="navbar">
+            <h1 class="navbar_titulo">SOBRE MI</h1>
+            <a href="contact.html" class="nav_link">Contact</a>
+            <a href="about.html" class="nav_link">About</a>
+            <a href="index.html" class="nav_link">Home</a>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
+
     <section>
-        <article>
-            <p>¡Oye! Soy Nelson. La codificación ha cambiado mi mundo. No se trata solo de aplicaciones. <br/> Aprender a codificar me dio habilidades para resolver problemas y una forma de comunicarme <br/> con otros a nivel técnico. También puedo desarrollar
-                sitios web y usar mis habilidades de <br/> codificación para que pueda conseguir un mejor trabajo. Y lo aprendí todo en la <abbr title="Universidad Nacional de Cajamarca">UNC</abbr>, donde <br/> te forman profesionalmente, construyen tu
-                autoestima y te mantienen motivado. <br/> Únase a mí en este gratificante viaje. ¡Te divertirás, y conocerás más sobre mí en el camino!
+        <article id="article_fotodos">
+            <img id="foto_dos" src="imagenes/zona.png" alt="" />
+            <p id="parrafo_dos">¡Oye! Soy Nelson. La codificación ha cambiado mi mundo. No se trata solo de aplicaciones. Aprender a codificar me dio habilidades para resolver problemas y una forma de comunicarme con otros a nivel técnico. También puedo desarrollar sitios
+                web y usar mis habilidades de codificación para que pueda conseguir un mejor trabajo. Y lo aprendí todo en la <abbr title="Universidad Nacional de Cajamarca">UNC</abbr>, donde te forman profesionalmente, construyen tu autoestima y te mantienen
+                motivado. <br/> Únase a mí en este gratificante viaje. ¡Te divertirás, y conocerás más sobre mí en el camino!
             </p>
         </article>
+        <article id="article_horario">
+            <h1><span>Mi horario de codificación</span></h1>
+            <table id="tabla_horario">
+                <tr>
+                    <th>Hora</th>
+                    <th>Lun</th>
+                    <th>Mar</th>
+                    <th>Mie</th>
+                    <th>Jue</th>
+                    <th>Vie</th>
+                </tr>
+                <tr>
+                    <td>8:00 - 9:30</td>
+                    <td class="horario">Lectura</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="horario">Lectura</td>
+                </tr>
+                <tr>
+                    <td>11:00 - 14:00</td>
+                    <td></td>
+                    <td class="horario">Codificación</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>16:15 - 18:30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="horario">Teoría</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>18:30 - 20:00</td>
+                    <td></td>
+                    <td></td>
+                    <td class="horario">Práctica</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </article>
     </section>
+    <aside id="aside_habilidades">
+        <article>
+            <h1><span>Mis Habilidades</span></h1>
+            <ul id="ul_habilidades">
+                <li>HTML</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </article>
+    </aside>
+    <aside id="aside_pelicula">
+        <article>
+            <h1><span>Mi película favorita</span></h1>
+            <video id="video" controls><source src="videos/Sistema.mp4" type="video/mp4" />
+                Tu navegador no puede mostrar el video
+            </video>
+        </article>
+    </aside>
     <footer>
         <h4>&copy;2021 Mi sitio web. Todo los derechos reservados </h4>
     </footer>

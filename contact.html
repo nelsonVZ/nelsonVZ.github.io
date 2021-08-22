@@ -8,25 +8,35 @@
     <title>Contact</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="estilos/estilopersonal.css">
 </head>
 
 <body>
     <header>
-        <h1>Contáctame</h1>
+        <nav class="navbar">
+            <h1 class="navbar_titulo">CONTACTAME</h1>
+            <a href="contact.html" class="nav_link">Contact</a>
+            <a href="about.html" class="nav_link">About</a>
+            <a href="index.html" class="nav_link">Home</a>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
-    <section>
+
+    <section id="formulario">
         <article>
-            <h3>Envianos tu sugerencia por e-mail</h3>
+            <h1><span>Envianos tu sugerencia por e-mail</span></h1>
             <form action="">Nombre: <br/>
                 <input type="text" name="name" value="nombre"> <br/> E-mail: <br/>
                 <input type="text" name="mail" value="email"> <br/> sugerencia: <br/>
-                <input type="text" name="comentario" value="Tu sugerencia" size="60"> <br/>
-                <input type="submit" value="Enviar">
+                <input id="comentario" type="text" name="comentario" value="Tu sugerencia" size="80"> <br/>
+                <input type="submit" value="Enviar" class="submit">
             </form>
+        </article>
+    </section>
+    <section id="seccion_sigueme">
+        <article>
+            <h1><span>Sigueme</span></h1>
+            <a href=""><img class="imagen_sigueme" src="imagenes/facebook.png" alt="facebook"></a>
+            <a href=""><img class="imagen_sigueme" src="imagenes/instagram.png" alt="instagram"></a>
         </article>
     </section>
     <footer>

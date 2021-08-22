@@ -1,0 +1,204 @@
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    
+    body {
+        margin: 0;
+        margin-bottom: 40px;
+        background-color: lightyellow;
+    }
+    
+    .navbar {
+        background-color: rgb(51, 51, 192);
+        position: relative;
+        z-index: 9;
+        width: 100%;
+        margin: 0;
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+    
+    .navbar_titulo {
+        display: inline-block;
+        margin-top: 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: 10px;
+        font-family: florence, cursive
+    }
+    
+    .nav_link {
+        color: white;
+        margin: 0px 50px;
+        float: right;
+        font-size: 18px;
+        font-family: florence, cursive;
+        margin-top: 25px;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: darkgreen;
+    }
+    
+    h1 span {
+        border: 4px dashed #20bcd5;
+        padding: 10px;
+        font-family: 'Handlee', cursive;
+    }
+    
+    table,
+    th,
+    td {
+        border: 2px solid #cecece;
+        border-collapse: collapse;
+        text-align: center;
+        table-layout: fixed;
+    }
+    
+    .horario {
+        background-color: #dd481b;
+        font-weight: bold;
+        color: white;
+    }
+    
+    #article_horario {
+        float: left;
+        margin-top: 20px;
+        margin-left: 6px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 5.4%;
+        width: 33%;
+        background-color: lightgreen;
+        border-radius: 10px;
+    }
+    
+    #tabla_horario {
+        margin-top: 40px;
+        height: 180px;
+    }
+    
+    #aside_habilidades {
+        background-color: #fcbf49;
+        width: 29.3%;
+        margin-left: 35.3%;
+        margin-top: -25.5%;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 14.2%;
+        float: left;
+        border-radius: 10px;
+    }
+    
+    #ul_habilidades {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    #aside_pelicula {
+        background-color: #db37b5;
+        width: 32%;
+        margin-left: 66.3%;
+        margin-right: 50%;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 4.2%;
+        border-radius: 10px;
+    }
+    
+    #video {
+        padding-top: 14px;
+        height: 200px;
+    }
+    
+    #formulario {
+        margin-left: 40%;
+        margin-top: 40px;
+        padding-top: 10px;
+    }
+    
+    .submit {
+        background-color: slateblue;
+        border-radius: 5px;
+        margin-top: 5px;
+        width: 35%;
+        height: 30px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    input {
+        height: 25px;
+    }
+    
+    #seccion_sigueme {
+        margin-left: 45%;
+        margin-top: 7%;
+        margin-right: 45%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .imagen_sigueme {
+        width: 40px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: lightblue;
+    }
+    
+    .Seccion {
+        position: relative;
+        margin-top: 50px;
+    }
+    
+    #foto {
+        margin: 10px auto;
+        display: block;
+        border-radius: 50%;
+        border: 4px solid;
+        width: 150px;
+    }
+    
+    #foto_dos {
+        float: left;
+        height: 125px;
+    }
+    
+    #article_fotodos {
+        height: 125px;
+    }
+    
+    #parrafo {
+        margin: 20px auto;
+        width: 50%;
+        text-align: center;
+        font-size: large;
+        font-family: 'Handlee', cursive;
+        color: black;
+    }
+    
+    #parrafo_dos {
+        margin-top: 20px;
+        padding-left: 130px;
+        width: 90%;
+        text-align: left;
+        font-size: large;
+        font-family: 'Handlee', cursive;
+        color: black;
+    }
+    
+    footer {
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        color: white;
+        text-align: center;
+        padding-bottom: 20px;
+    }
