@@ -176,7 +176,7 @@
         position: fixed;
         left: 0px;
         top: 200px;
-        z-index: 2000;
+        z-index: 2000px;
     }
     
     .social ul {
@@ -224,6 +224,99 @@
         padding-top: 15px;
     }
     
-    .test-pie {
+    .text-pie {
         font-size: small;
+    }
+    /* CSSS PARA LAB05*/
+    
+    #titulo {
+        text-align: center;
+        font-weight: bold;
+        font-family: "cursive", fantasy;
+    }
+    
+    #section-uno {
+        width: 40%;
+        height: 90px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    
+    #aside-boton {
+        width: 40%;
+        height: 90px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 150px;
+    }
+    
+    #section-dos {
+        width: 30%;
+        height: 130px;
+        float: left;
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+    
+    #aside-texto {
+        width: 30%;
+        height: 130px;
+        float: right;
+        margin-top: 100px;
+        margin-right: 350px;
+    }
+    
+    .tabla {
+        border-style: none;
+    }
+    
+    .tabla tr td {
+        border-width: 5px;
+        border-color: rgb(238, 238, 185);
+        text-align: left;
+    }
+    
+    .estilo-input {
+        border-color: orangered;
+    }
+    
+    .fondo-azul {
+        background-color: blue;
+        color: white;
+    }
+    
+    .fondo-anaranjado {
+        background-color: orangered;
+        color: white;
+    }
+    
+    #boton-extraer {
+        background-color: yellow;
+        border-style: none;
+        width: 100px;
+        height: 33px;
+        border-radius: 3px;
+        color: white;
+    }
+    
+    #boton-colorear {
+        background-color: orangered;
+        border-style: none;
+        width: 100px;
+        height: 33px;
+        border-radius: 3px;
+        color: white;
+    }
+    
+    #nombre-apellido {
+        width: 300px;
+    }
+    
+    #boton-extraer:hover {
+        background-color: lawngreen;
+    }
+    
+    #boton-colorear:hover {
+        background-color: lawngreen;
     }
