@@ -227,7 +227,7 @@
     .text-pie {
         font-size: small;
     }
-    /* CSSS PARA LAB05*/
+    /* CSSS PARA LAB05 ######################################################################*/
     
     #titulo {
         text-align: center;
@@ -286,7 +286,17 @@
         color: white;
     }
     
+    .fondo-azul-nuevo {
+        background-color: blue;
+        color: white;
+    }
+    
     .fondo-anaranjado {
+        background-color: orangered;
+        color: white;
+    }
+    
+    .fondo-anaranjado-nuevo {
         background-color: orangered;
         color: white;
     }
